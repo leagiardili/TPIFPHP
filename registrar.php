@@ -10,8 +10,6 @@
     $usrSeniority   = $_POST['UsrSeniority'];
     $usrPassword    = $_POST['UsrPassword'];
 
-    //$connect = mysqli_connect("localhost","root","root","pifphp2022");
-
     if(mysqli_connect_errno()){
         // echo "ERROR!!!";
     } else {

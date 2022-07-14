@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';  
 $user = 'root';   
-$pass = '';   
+$pass = 'root';   
 $database = 'pifphp2022';   
 
 // estableciendo conexión

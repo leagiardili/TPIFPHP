@@ -33,8 +33,9 @@ if(isset($_POST['create']))
                     <input type="password" class="form-control" name="usrPass" id="inputPassword">
                 </div>
             </div>
-            <div class="form-group">
-                <input type="submit"  name="create" class="btn btn-primary mt-2" value="Ingresar">
+            <div>
+                <input type="submit"  name="create" class="btn btn-primary" value="Ingresar">
+                <a href="index.html" id="cancel" name="cancel" class="btn btn-danger">Cancelar</a> 
             </div>
         </form>
         <br>
