@@ -7,8 +7,10 @@ if(isset($_POST['create']))
       
      // displaying proper message for the user to see whether the query executed perfectly or not 
           if ($usrName=='admin' and $usrPass=='admin') {
-              echo "<script type='text/javascript'>alert('Ingreso!')</script>";
-              header("Location: browse.php");
+              //echo "<script type='text/javascript'>alert('Ingreso!')</script>";
+              echo "<script type='text/javascript'>window.location = 'browse.php'</script>";
+              //header("Location: browse.php");
+              exit("");
           }
 
           else { 

@@ -58,7 +58,7 @@
 
 <!-- a BACK button to go to the index page -->
 <div class="container text-center mt-5">
-    <a href="../admin.php" class="btn btn-warning mt-5"> Volver </a>
+    <a href="admin.php" class="btn btn-warning mt-5"> Volver </a>
 </div>
 <br>
 <?php
