@@ -1,0 +1,28 @@
+#navbarSupportedContent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardclass{
+    display: flex;
+    justify-content: space-between;
+    }
+
+ .cuerpo {
+     width:70%;
+     margin:0 auto;
+     border-width: 5px;
+  /*   border-color: black;
+     border-style: dashed;*/
+ }
+
+ .grid1 {
+     display: inline;
+ }
+
+ .col {
+    border-width: 2px;
+ /*   border-color: blue;
+    border-style: dashed; */
+ }
+ 
