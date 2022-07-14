@@ -1,4 +1,4 @@
-<?php include 'functions/header.php' ?>
+<?php include 'header.php' ?>
 <?php
 if(isset($_POST['create'])) 
     {
@@ -8,7 +8,7 @@ if(isset($_POST['create']))
      // displaying proper message for the user to see whether the query executed perfectly or not 
           if ($usrName=='admin' and $usrPass=='admin') {
               echo "<script type='text/javascript'>alert('Ingreso!')</script>";
-              header("Location: functions/browse.php");
+              header("Location: browse.php");
           }
 
           else { 
@@ -35,11 +35,11 @@ if(isset($_POST['create']))
             </div>
             <div>
                 <input type="submit"  name="create" class="btn btn-primary" value="Ingresar">
-                <a href="index.html" id="cancel" name="cancel" class="btn btn-danger">Cancelar</a> 
+                <a href="../index.html" id="cancel" name="cancel" class="btn btn-danger">Cancelar</a> 
             </div>
         </form>
         <br>
     </div>
 </main>
 <!-- Footer -->
-<?php include 'functions/footer.php' ?>
+<?php include 'footer.php' ?>
