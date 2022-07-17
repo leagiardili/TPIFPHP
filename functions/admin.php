@@ -24,13 +24,13 @@ if(isset($_POST['create']))
         <br>
         <form action="" method="POST">
             <div class="mb-3 row">
-                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Usuario</label>
+                <label for="exampleFormControlInput1" class="col-sm-2 col-form-label">Usuario (admin)</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" name="usrName" id="usrName">
                 </div>
             </div>
             <div class="mb-3 row">
-                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password (admin)</label>
                 <div class="col-sm-10">
                     <input type="password" class="form-control" name="usrPass" id="inputPassword">
                 </div>
